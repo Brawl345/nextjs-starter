@@ -7,17 +7,19 @@ export default function AppNavbar() {
 
   return (
     <Navbar variant="dark" className="mb-4" bg="dark" expand="lg">
-      <Link href="/" passHref><Navbar.Brand>Next.js Starter</Navbar.Brand></Link>
+      <Link href="/" passHref>
+        <Navbar.Brand>Next.js Starter</Navbar.Brand>
+      </Link>
       <Navbar.Toggle aria-controls="app-navbar" />
       <Navbar.Collapse id="app-navbar">
         <Nav className="mr-auto">
           <Link href="/" passHref>
-            <NavLink className={router.pathname === '/' ? 'active' : ''}>
+            <NavLink active={router.pathname === '/'}>
               Home
             </NavLink>
           </Link>
           <Link href="/about" passHref>
-            <NavLink className={router.pathname === '/about' ? 'active' : ''}>
+            <NavLink active={router.pathname === '/about'}>
               About
             </NavLink>
           </Link>
