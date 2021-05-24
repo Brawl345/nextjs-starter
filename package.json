@@ -4,7 +4,7 @@
   "repository": {
     "url": "https://github.com/Brawl345/nextjs-starter.git"
   },
-  "license": "UNLICENSE",
+  "license": "Unlicense",
   "scripts": {
     "dev": "next dev",
     "build": "next build",

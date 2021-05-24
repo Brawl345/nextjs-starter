@@ -1,8 +1,10 @@
 Next.js Starter Template
 ========================
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FBrawl345%2Fnextjs-starter)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https%3A%2F%2Fgithub.com%2FBrawl345%2Fnextjs-starter&env=NEXT_TELEMETRY_DISABLED&envDescription=Set%20NEXT_TELEMETRY_DISABLED%20to%201%20to%20disable%20Next.js%20telemetry&envLink=https%3A%2F%2Fnextjs.org%2Ftelemetry%23how-do-i-opt-out)
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app). It will be extended over time with features that I need to quickly get started with new projects.
+
+**Example:** https://brawl-nextjs-starter.vercel.app/
 
 ## Featuring
 
