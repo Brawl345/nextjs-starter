@@ -37,6 +37,7 @@ function MyApp({ Component, pageProps }) {
       <AppNavbar />
 
       <PageTransition
+        skipInitialTransition
         timeout={TIMEOUT}
         classNames="page-transition"
         loadingComponent={<Loader />}
