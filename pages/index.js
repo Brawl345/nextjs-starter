@@ -4,7 +4,6 @@ import AppHead from '@/components/shared/AppHead';
 export default function Home() {
   return (
     <Container>
-
       <AppHead pageTitle="Home" description="Welcome!" />
 
       <Row>

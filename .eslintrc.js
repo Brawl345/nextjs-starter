@@ -1,18 +1,14 @@
 module.exports = {
-  'extends': ['airbnb', 'airbnb/hooks', 'plugin:react/recommended'],
-  'plugins': [
-    'react-hooks',
-  ],
-  'settings': {
+  extends: ['airbnb', 'airbnb/hooks', 'plugin:react/recommended', 'prettier'],
+  plugins: ['react-hooks'],
+  settings: {
     'import/resolver': {
-      'node': {
-        'paths': [
-          '.',
-        ],
+      node: {
+        paths: ['.'],
       },
-      'alias': {
-        'extensions': ['.ts', '.js', '.jsx', '.json'],
-        'map': [
+      alias: {
+        extensions: ['.ts', '.js', '.jsx', '.json'],
+        map: [
           ['@', '.'],
           ['components', './components'],
           ['lib', './lib'],
@@ -21,58 +17,72 @@ module.exports = {
       },
     },
   },
-  'reportUnusedDisableDirectives': true,
-  'rules': {
+  reportUnusedDisableDirectives: true,
+  rules: {
     'react-hooks/rules-of-hooks': 'error',
     'react-hooks/exhaustive-deps': 'warn',
     'jsx-a11y/click-events-have-key-events': 'off',
     'jsx-a11y/anchor-is-valid': 'off',
-    'jsx-a11y/control-has-associated-label': [2, {
-      'ignoreElements': [
-        'option',
-        'th',
-      ],
-      'depth': 3,
-    }],
+    'jsx-a11y/control-has-associated-label': [
+      2,
+      {
+        ignoreElements: ['option', 'th'],
+        depth: 3,
+      },
+    ],
     'indent': 'off',
     'no-underscore-dangle': 'off',
     'linebreak-style': 'off',
-    'max-len': ['warn', {
-      'code': 120,
-      'ignoreTemplateLiterals': true,
-    }],
+    'max-len': [
+      'warn',
+      {
+        code: 120,
+        ignoreTemplateLiterals: true,
+      },
+    ],
     'no-nested-ternary': 'off',
     'no-trailing-spaces': 'off',
-    'no-param-reassign': ['error', {
-      'props': false,
-    },
+    'no-param-reassign': [
+      'error',
+      {
+        props: false,
+      },
     ],
     'no-undef': 'off',
-    'no-unused-expressions': ['error', {
-      'allowTernary': true,
-    }],
-    'object-curly-newline': ['error', {
-      'ImportDeclaration': 'never',
-    }],
+    'no-unused-expressions': [
+      'error',
+      {
+        allowTernary: true,
+      },
+    ],
+    'object-curly-newline': [
+      'error',
+      {
+        ImportDeclaration: 'never',
+      },
+    ],
     'quote-props': ['warn', 'consistent'],
     'react/destructuring-assignment': 'off',
     'react/jsx-filename-extension': 'off',
     'react/jsx-indent': 'off',
     'react/jsx-one-expression-per-line': 'off',
-    'react/jsx-props-no-spreading': ['error', {
-      'html': 'ignore',
-      'exceptions': ['Component'],
-    }],
+    'react/jsx-props-no-spreading': [
+      'error',
+      {
+        html: 'ignore',
+        exceptions: ['Component'],
+      },
+    ],
     'react/display-name': 'off',
     'react/no-array-index-key': 'off',
     'react/no-did-update-set-state': 'off',
     'react/prop-types': 2,
     'react/forbid-prop-types': 'off',
   },
-  'globals': {
-    'React': 'writable',
+  globals: {
+    React: 'writable',
   },
-  'env': {
-    'amd': true,
+  env: {
+    amd: true,
   },
 };

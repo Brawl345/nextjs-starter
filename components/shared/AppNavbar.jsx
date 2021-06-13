@@ -14,14 +14,10 @@ export default function AppNavbar() {
       <Navbar.Collapse id="app-navbar">
         <Nav className="mr-auto">
           <Link href="/" passHref>
-            <NavLink active={router.pathname === '/'}>
-              Home
-            </NavLink>
+            <NavLink active={router.pathname === '/'}>Home</NavLink>
           </Link>
           <Link href="/about" passHref>
-            <NavLink active={router.pathname === '/about'}>
-              About
-            </NavLink>
+            <NavLink active={router.pathname === '/about'}>About</NavLink>
           </Link>
         </Nav>
       </Navbar.Collapse>

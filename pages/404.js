@@ -5,11 +5,7 @@ import AppHead from '@/components/shared/AppHead';
 export default function Error404() {
   return (
     <Container>
-
-      <AppHead
-        pageTitle="404 Not Found"
-        description="404 Error"
-      />
+      <AppHead pageTitle="404 Not Found" description="404 Error" />
 
       <Row>
         <Col className="text-center">
@@ -26,11 +22,12 @@ export default function Error404() {
       <Row className="mb-5">
         <Col className="text-center">
           <Link href="/">
-            <Button variant="success" size="lg">To home page</Button>
+            <Button variant="success" size="lg">
+              To home page
+            </Button>
           </Link>
         </Col>
       </Row>
-
     </Container>
   );
 }

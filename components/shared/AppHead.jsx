@@ -6,12 +6,26 @@ function AppHead({ pageTitle, description }) {
 
   return (
     <Head>
-      <title>{siteTitle} | {pageTitle}</title>
+      <title>
+        {siteTitle} | {pageTitle}
+      </title>
 
       <meta property="og:title" content={pageTitle} key="title" />
-      <meta property="og:description" content={`${siteTitle} | ${pageTitle}`} key="og:description" />
-      <meta name="twitter:title" content={`${siteTitle} | ${pageTitle}`} key="twitter:title" />
-      <meta name="twitter:description" content={`${siteTitle} - ${description}`} key="twitter:description" />
+      <meta
+        property="og:description"
+        content={`${siteTitle} | ${pageTitle}`}
+        key="og:description"
+      />
+      <meta
+        name="twitter:title"
+        content={`${siteTitle} | ${pageTitle}`}
+        key="twitter:title"
+      />
+      <meta
+        name="twitter:description"
+        content={`${siteTitle} - ${description}`}
+        key="twitter:description"
+      />
     </Head>
   );
 }

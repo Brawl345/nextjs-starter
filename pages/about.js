@@ -7,7 +7,9 @@ export default function About() {
         <Col>
           <Card bg="info" text="light">
             <Card.Header as="h5">What is Next.js Starter?</Card.Header>
-            <Card.Body>Next.js Starter is a template to quickly get started with Next.js.</Card.Body>
+            <Card.Body>
+              Next.js Starter is a template to quickly get started with Next.js.
+            </Card.Body>
           </Card>
         </Col>
       </Row>
