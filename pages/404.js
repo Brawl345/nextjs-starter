@@ -21,7 +21,7 @@ export default function Error404() {
 
       <Row className="mb-5">
         <Col className="text-center">
-          <Link href="/">
+          <Link href="/" passHref>
             <Button variant="success" size="lg">
               To home page
             </Button>

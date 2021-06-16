@@ -1,5 +1,11 @@
 module.exports = {
-  extends: ['airbnb', 'airbnb/hooks', 'plugin:react/recommended', 'prettier'],
+  extends: [
+    'airbnb',
+    'airbnb/hooks',
+    'plugin:react/recommended',
+    'next',
+    'prettier',
+  ],
   plugins: ['react-hooks'],
   settings: {
     'import/resolver': {
