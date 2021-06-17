@@ -1,0 +1,11 @@
+- match:
+    dependency_type: all
+    update_type: "semver:minor"
+
+- match:
+    dependency_name: eslint-config-.*
+    update_type: all
+
+- match:
+    dependency_name: stylelint-config-.*
+    update_type: all

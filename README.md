@@ -13,6 +13,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 * [ESLint](https://eslint.org/)
 * [Prettier](https://prettier.io/)
 * [Stylelint](https://stylelint.io/)
+* Dependabot & GitHub Actions
 * [next-page-transitions](https://github.com/illinois/next-page-transitions#readme)
 * [Sass](https://sass-lang.com/)
 * Sane defaults:
