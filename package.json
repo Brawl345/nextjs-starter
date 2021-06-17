@@ -30,7 +30,7 @@
     "sass": "^1.35.1"
   },
   "dependencies": {
-    "bootstrap": "^4.6.0",
+    "bootstrap": "^5.0.1",
     "next": "^11.0.0",
     "next-page-transitions": "^1.0.0-beta.2",
     "prop-types": "^15.7.2",
