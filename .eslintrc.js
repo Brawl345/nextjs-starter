@@ -25,16 +25,16 @@ module.exports = {
         allowTernary: true,
       },
     ],
-   "react/jsx-props-no-spreading"': [
-     "error"',
+    'react/no-array-index-key': 'off',
+    'react/jsx-props-no-spreading': [
+      'error',
       {
-        html:"ignore"',
-        exceptions: "Component"',
-      ,
+        html: 'ignore',
+        exceptions: ['Component'],
+      },
     ],
-   "react/no-array-index-key"':"off"',
-   "react/prop-types"': 1,
-   "react/forbid-prop-types"':"off",
+    'react/prop-types': 1,
+    'react/forbid-prop-types': 'off',
   },
   globals: {
     React: 'writable',
