@@ -1,7 +1,7 @@
 lockfileVersion: 5.3
 
 specifiers:
-  '@next/eslint-plugin-next': ^10.2.3
+  '@next/eslint-plugin-next': ^11.0.0
   bootstrap: ^4.6.0
   eslint: ^7.28.0
   eslint-config-airbnb: ^18.2.1
@@ -35,7 +35,7 @@ dependencies:
   react-dom: 17.0.2_react@17.0.2
 
 devDependencies:
-  '@next/eslint-plugin-next': 10.2.3
+  '@next/eslint-plugin-next': 11.0.0
   eslint: 7.28.0
   eslint-config-airbnb: 18.2.1_0e8ee8adb4451d386b987e23b3261a8c
   eslint-config-next: 11.0.0_eslint@7.28.0+next@11.0.0
@@ -335,10 +335,6 @@ packages:
   /@next/env/11.0.0:
     resolution: { integrity: sha512-VKpmDvTYeCpEQjREg3J4pCmVs/QjEzoLmkM8shGFK6e9AmFd0G9QXOL8HGA8qKhy/XmNb7dHeMqrcMiBua4OgA== }
     dev: false
-
-  /@next/eslint-plugin-next/10.2.3:
-    resolution: { integrity: sha512-XkYm3cMxY2RZgbGyZLDN3vR9StFyiQVdwdS/EL6NxOerzt0To03/coY22p4jcFLtLYlQxAivJRicMTDNhRzPog== }
-    dev: true
 
   /@next/eslint-plugin-next/11.0.0:
     resolution: { integrity: sha512-fPZ0904yY1box6bRpR9rJqIkNxJdvzzxH7doXS+cdjyBAdptMR7wj3mcx1hEikBHzWduU8BOXBvRg2hWc09YDQ== }
