@@ -18,16 +18,18 @@ module.exports = {
   },
   reportUnusedDisableDirectives: true,
   rules: {
-    'no-nested-ternary': 'off',
-    'no-unused-expressions': [
-      'error',
+    "@next/next/no-img-element": "off",
+    "no-nested-ternary": "off",
+    "no-underscore-dangle": "off",
+    "no-unused-expressions": [
+      "error",
       {
-        allowTernary: true,
-      },
+        allowTernary: true
+      }
     ],
-    'react/no-array-index-key': 'off',
-    'react/jsx-props-no-spreading': [
-      'error',
+    "react/no-array-index-key": "off",
+    "react/jsx-props-no-spreading": [
+      "error",
       {
         html: 'ignore',
         exceptions: ['Component'],
@@ -37,6 +39,7 @@ module.exports = {
     'react/forbid-prop-types': 'off',
   },
   globals: {
-    React: 'writable',
+    fetch: "writable",
+    React: "writable"
   },
 };
