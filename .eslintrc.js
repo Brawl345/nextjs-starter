@@ -39,7 +39,10 @@ module.exports = {
     'react/forbid-prop-types': 'off',
   },
   globals: {
-    fetch: "writable",
     React: "writable"
+  },
+  env: {
+    browser: true,
+    node: true,
   },
 };
