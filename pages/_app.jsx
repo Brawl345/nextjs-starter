@@ -1,10 +1,10 @@
 import '@/styles/globals.scss';
 import Head from 'next/head';
 import PropTypes from 'prop-types';
-import AppNavbar from '@/components/shared/AppNavbar';
-import Loader from '@/components/shared/Loader';
 import { PageTransition } from 'next-page-transitions';
 import { useRouter } from 'next/router';
+import AppNavbar from '@/components/shared/AppNavbar';
+import Loader from '@/components/shared/Loader';
 
 const TIMEOUT = 150;
 
