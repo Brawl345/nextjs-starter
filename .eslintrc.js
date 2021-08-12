@@ -35,7 +35,7 @@ module.exports = {
         exceptions: ['Component'],
       },
     ],
-    'react/prop-types': 1,
+    'react/prop-types': 'error',
     'react/forbid-prop-types': 'off',
   },
   globals: {
