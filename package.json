@@ -13,15 +13,15 @@
     "check-dependencies": "npm-check --skip-unused"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^11.1.0",
+    "@next/eslint-plugin-next": "^11.1.2",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-next": "^11.1.0",
+    "eslint-config-next": "^11.1.2",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import":"^2.24.2",
     "eslint-plugin-jsx-a11y": "^6.4.1",
-    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react": "^7.25.1",
     "eslint-plugin-react-hooks": "^4.2.0",
     "prettier": "2.3.2",
     "stylelint": "^13.13.1",
@@ -32,7 +32,7 @@
   },
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "next": "^11.1.0",
+    "next": "^11.1.2",
     "next-page-transitions": "^1.0.0-beta.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
