@@ -13,7 +13,7 @@
     "check-dependencies": "npm-check --skip-unused"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^11.1.0",
+    "@next/eslint-plugin-next": "^11.1.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-next": "^11.1.0",
