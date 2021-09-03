@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['next', 'airbnb', 'airbnb/hooks', 'prettier'],
+  extends: ['next/core-web-vitals', 'airbnb', 'airbnb/hooks', 'prettier'],
   plugins: ['unicorn'],
   settings: {
     'import/resolver': {
