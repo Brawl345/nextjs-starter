@@ -60,6 +60,7 @@ module.exports = {
     'unicorn/no-process-exit': 'error',
     'unicorn/no-static-only-class': 'error',
     'unicorn/no-this-assignment': 'error',
+    'unicorn/no-useless-fallback-in-spread': 'error',
     'unicorn/no-useless-undefined': 'error',
     'unicorn/numeric-separators-style': 'error',
     'unicorn/prefer-array-find': 'error',
