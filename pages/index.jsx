@@ -1,4 +1,4 @@
-import { Col, Container, Jumbotron, Row } from 'react-bootstrap';
+import { Col, Container, Row } from 'react-bootstrap';
 import AppHead from '@/components/shared/AppHead';
 
 export default function Home() {
@@ -8,9 +8,9 @@ export default function Home() {
 
       <Row>
         <Col>
-          <Jumbotron>
+          <div className="p-3 bg-secondary text-white">
             <h1>Welcome to Next.js Starter!</h1>
-          </Jumbotron>
+          </div>
         </Col>
       </Row>
     </Container>
