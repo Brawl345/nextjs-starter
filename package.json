@@ -13,10 +13,10 @@
     "check-dependencies": "npm-check --skip-unused"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^11.1.2",
+    "@next/eslint-plugin-next": "^12.0.1",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
-    "eslint-config-next": "^11.1.2",
+    "eslint-config-next":"^12.0.1",
     "eslint-config-prettier": "^8.3.0",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-import": "^2.25.2",
@@ -25,16 +25,16 @@
     "eslint-plugin-react-hooks": "^4.2.0",
     "eslint-plugin-unicorn": "^37.0.1",
     "prettier": "2.4.1",
-    "stylelint": "^13.13.1",
+    "stylelint": "^14.0.1",
     "stylelint-config-prettier": "^9.0.3",
-    "stylelint-config-sass-guidelines": "^8.0.0",
-    "stylelint-config-standard": "^22.0.0",
-    "sass": "1.32.13"
+    "stylelint-config-sass-guidelines": "^9.0.0",
+    "stylelint-config-standard": "^23.0.0",
+    "sass": "^1.43.4"
   },
   "dependencies": {
-    "@next/bundle-analyzer": "^11.1.2",
+    "@next/bundle-analyzer": "^12.0.1",
     "bootstrap": "^4.6.0",
-    "next": "^11.1.2",
+    "next": "^12.0.1",
     "next-page-transitions": "^1.0.0-beta.2",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
